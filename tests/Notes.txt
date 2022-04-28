@@ -1,0 +1,28 @@
+/*
+	read, malloc, free
+
+	read
+		fail	 -1
+		success	  the number of bytes read
+		0 		конец считывания с потока
+*/
+/* УСЛОВИЯ
+ * всегда должен читать правильно, не смотря на размер буфера
+ * если остаток пустой
+ * если в save_line осталась часть строки, то выводим всю строку
+ *
+ * Если файл пустой или уже все из файла считано и отдано, то возвращаешь null.
+*/
+/*	
+ * clear_line = clear_save_line(save_line);
+ * clear line to read exactly till the new line
+*/
+/*
+ * 	save_line = delete_clear_line(save_line);
+ * if rd_buffer is too big (depends on BUFFER_SIZE)
+ * we need to delete clear line we got from save_line
+ * to allocate memory for all lines remained lines in save_line that were read from buffer
+ * если файл большой (при большом BUFFER_SIZE), то в из save_line
+ * надо удалить строку clear_line, которую мы получили,
+ * чтобы выделить память под всё, что считалось из буфера в save_line
+*/
