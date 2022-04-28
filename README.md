@@ -34,7 +34,7 @@ If there is nothing else to read or if an error occurred, it should return <code
 You can test <code>get_next_line()</code> function using <code>main</code> located in tests folder.
 For that compile all source files and provide the program with appropriate number of an argument from 1 to 8 where:
 
-<code>./program_name number
+<code>./program_name number</code>
 
 • `1` - "To be, or not to be, that is the question" speech
 
