@@ -56,13 +56,6 @@ int	main(int argc, char **argv)
 			printf("Read from file with only new line:\n");
 			fd = open("tests/only_nl", O_RDONLY);
 			printf("%s", get_next_line(fd));
-			// while(i > 1)
-			// {
-			// 	printf("%s", get_next_line(fd));
-			// 	free(line);
-			// 	i++;
-			// }
-			// printf("%s", line);
 			free(line);
 			printf("%s", get_next_line(fd));
 			close(fd);
@@ -71,7 +64,7 @@ int	main(int argc, char **argv)
 		{
 			i = 0;
 			printf("Read from file with nl:\n");
-			fd = open("tests/41_with_nl", O_RDONLY);
+			fd = open("tests/two_lines", O_RDONLY);
 			while (i < 1)
 			{
 				line = get_next_line(fd);
