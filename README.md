@@ -31,6 +31,12 @@ If there is nothing else to read or if an error occurred, it should return <code
 
 ## Tests
 
+### Tester I used
+
+	https://github.com/Tripouille/gnlTester
+
+<b>My main function</b>
+
 You can test <code>get_next_line()</code> function using <code>main</code> located in tests folder.
 For that compile all source files and provide the program with appropriate number of an argument from 1 to 8 where:
 
