@@ -1,8 +1,8 @@
 <div align="center" max-width="300">
-	<img src="info/imgs/21_42_logos.png" alight="center">
+	<img src="imgs/21_42_logos.png" alight="center">
 </div>
 
-# Get_next_line
+# get_next_line
 
 ## Summary:
 
